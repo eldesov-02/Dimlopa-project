@@ -43,7 +43,7 @@
       text-decoration: none;
       float: right;
       margin-top: -30px;
-      margin-right: 40px;
+      margin-right: 30px;
       border-radius: 2px;
       font-size: 15px;
       font-weight: 600;
@@ -169,7 +169,8 @@
       <h3>Insurance</h3>
     </div>
     <div class="right_area">
-      <a href="/logout" class="logout_btn">Log out</a>
+      <a href="{% url 'logout' %}" class="logout_btn">Log out</a>
+      <a href="/front" class="logout_btn">Website</a>
     </div>
   </header>
   <!--header area end-->
